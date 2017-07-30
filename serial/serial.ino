@@ -1,4 +1,7 @@
-
+/*
+ * demonstrating basic concepts before making it physical:
+ * variables, simple operations, if statements, loops
+ */
 int x = 3;
 int y = 2;
 int z;
