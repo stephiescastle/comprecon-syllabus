@@ -57,8 +57,11 @@ void loop() {
     
     // just turn it on no matter what
     digitalWrite(ledPin, HIGH);
+    buttonState = digitalRead(buttonPin);
+
+    // debug. somehow can't escape this is switch is off and push button is pressed. it just stays on.
     
-  } else {
+  } else if (buttonState == LOW) {
     
     // do the complicated stuff
     switchState = digitalRead(switchPin);
@@ -81,14 +84,15 @@ void loop() {
         digitalWrite(ledPin, LOW);
         Serial.print("Off, ");
         Serial.println(knobValue);
-        delay(knobValue);
+        delay(500);
       }    
     } else {
       // off
       Serial.println(switchState);
       delay(500);
+      switchState = digitalRead(switchPin);
     } // end of switchState logic
-    
+    buttonState = digitalRead(buttonPin);
   } // end of buttonState logic
 
 }
