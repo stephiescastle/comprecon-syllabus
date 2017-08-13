@@ -12,6 +12,7 @@
   - blink actual LED (not the builtin)
   - change blink rate w/ potentiometer
   - introduce conditional statements::::
+  - if knob value is above a certain number
   - use switch to check for modes (will this require metro?)
   - use two switches to nest mode (will this require metro?)
 */
@@ -32,18 +33,27 @@ void setup() {
 }
 
 void loop() {
-  
-  // read the value from the knob:
+  // must read it repeatedly to repeatedly evaluate this conditional
   knobValue = analogRead(knobPin);
-  Serial.println(knobValue);
-  // turn the ledPin on
-  digitalWrite(ledPin, HIGH);
-  // stop the program for <knobValue> milliseconds:
-  delay(knobValue);
-  // turn the ledPin off:
-  digitalWrite(ledPin, LOW);
-  // stop the program for for <knobValue> milliseconds:
-  delay(knobValue);
+  
+  if (knobValue < 200) {
+    // read the value from the knob:
+    Serial.println(knobValue);
+    // turn the ledPin on
+    digitalWrite(ledPin, HIGH);
+    // stop the program for <knobValue> milliseconds:
+    delay(knobValue);
+    // turn the ledPin off:
+    digitalWrite(ledPin, LOW);
+    // stop the program for for <knobValue> milliseconds:
+    delay(knobValue);    
+  } else {
+    digitalWrite(ledPin, LOW);
+    Serial.print("Off, ");
+    Serial.println(knobValue);
+    delay(knobValue);
+  }
+
 
 
 }
