@@ -51,18 +51,20 @@ void loop() {
   
   // must read it repeatedly to repeatedly evaluate this conditional
   buttonState = digitalRead(buttonPin);
-  Serial.println(buttonState);
+  
 
   if (buttonState == HIGH) {
-    
+    Serial.print("Button: ");
+    Serial.println(buttonState);
     // just turn it on no matter what
     digitalWrite(ledPin, HIGH);
     buttonState = digitalRead(buttonPin);
 
     // debug. somehow can't escape this is switch is off and push button is pressed. it just stays on.
     
-  } else if (buttonState == LOW) {
-    
+  } else {
+    Serial.print("Button: ");
+    Serial.println(buttonState);
     // do the complicated stuff
     switchState = digitalRead(switchPin);
     Serial.println(switchState);
@@ -88,6 +90,8 @@ void loop() {
       }    
     } else {
       // off
+      digitalWrite(ledPin, LOW);
+      Serial.print("Switch: ");
       Serial.println(switchState);
       delay(500);
       switchState = digitalRead(switchPin);
