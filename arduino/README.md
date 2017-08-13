@@ -53,7 +53,7 @@ Purpose: Learn about order of operations and program setup in Arduino. Emphasize
 
 ## Lesson 3: Make external LED blink
 
-![external led](http://stephiescastle.com/teaching/computation-reconsidered/external-led_bb.svg)
+![external led](http://stephiescastle.com/teaching/computation-reconsidered/external-led_bb.svg?v=2)
 
 Purpose: Introduce concepts of basic electronics
 
@@ -64,7 +64,7 @@ Purpose: Introduce concepts of basic electronics
 
 ## Lesson 4: Use a knob to control the blink rate
 
-![external led with potentiometer](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot_bb.svg)
+![external led with potentiometer](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot_bb.svg?v=2)
 
 Purpose: Introduce a manipulatable variable. The equivalent of a "sensor"
 
@@ -81,7 +81,7 @@ Purpose: Introduce using number ranges as a conditional
 
 ## Lesson 6: Using conditionals: Modes using switches
 
-![external led with potentiometer and switch](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot-toggle_bb.svg)
+![external led with potentiometer and switch](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot-toggle_bb.svg?v=2)
 
 Purpose: Introduce mode switching
 
