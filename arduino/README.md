@@ -59,7 +59,7 @@ Purpose: Introduce concepts of basic electronics
 
 - Breadboard
 - Jumper cables
-- 120 ohm resistor
+- 10kΩ resistor
 - 3v LED
 
 ## Lesson 4: Use a knob to control the blink rate
@@ -69,7 +69,7 @@ Purpose: Introduce concepts of basic electronics
 Purpose: Introduce a manipulatable variable. The equivalent of a "sensor"
 
 - Potentiometer
-- 120 ohm resistor
+- 10kΩ resistor
 
 `Okay, so it’s always looping and it’s always the same. What if we want it to do something different?`
 
@@ -86,7 +86,7 @@ Purpose: Introduce using number ranges as a conditional
 Purpose: Introduce mode switching
 
 - switch
-- 120 ohm resistor
+- 10kΩ resistor
 
 ## Lesson 7: Using conditionals: Momentary modes (momentary button)
 
@@ -95,7 +95,7 @@ Purpose: Introduce mode switching
 Purpose: Introduce use of momentary buttons
 
 - button
-- 120 ohm resistor
+- 10kΩ resistor
 
 -----------
 
