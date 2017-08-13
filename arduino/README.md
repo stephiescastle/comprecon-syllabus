@@ -30,7 +30,7 @@ https://www.arduino.cc/
 
 ## Turn on built-in LED
 
-Purpose: The Arduino "Hello World"
+Purpose: The "Hello World" for Arduino
 
 - Laptop
 - Arduino
@@ -63,6 +63,8 @@ Purpose: Introduce concepts of basic electronics
 - 3v LED
 
 ## Use a knob to control the blink rate
+
+![external led](diagrams/external-led-pot_bb.svg?raw=true)
 
 Purpose: Introduce a manipulatable variable. The equivalent of a "sensor"
 
