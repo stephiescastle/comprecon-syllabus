@@ -53,7 +53,7 @@ Purpose: Learn about order of operations and program setup in Arduino. Emphasize
 
 ## Make external LED blink
 
-![external led](https://github.com/stephiescastle/computation-reconsidered/blob/master/arduino/diagrams/external-led.png?raw=true)
+![external led](diagrams/external-led_bb.svg?raw=true)
 
 Purpose: Introduce concepts of basic electronics
 
