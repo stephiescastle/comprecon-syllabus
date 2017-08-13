@@ -64,7 +64,7 @@ Purpose: Introduce concepts of basic electronics
 
 ## Use a knob to control the blink rate
 
-![external led](diagrams/external-led-pot_bb.svg?raw=true)
+![external led with potentiometer](https://raw.githubusercontent.com/stephiescastle/computation-reconsidered/master/arduino/diagrams/external-led-pot_bb.svg)
 
 Purpose: Introduce a manipulatable variable. The equivalent of a "sensor"
 
