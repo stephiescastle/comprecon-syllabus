@@ -1,4 +1,5 @@
-# class-comprecon
-Class materials for Fall 2017 Computation Reconsidered (IIMC-590-01 / ATEK-590-01) at California Institute of the Arts
+# Computation Reconsidered (ATEK/IIMC-590)
+Sandbox for class prep. 
 Instructor: Stephanie Smith
 Departments: Integrated Media, Art and Technology
+California Institute of the Arts
