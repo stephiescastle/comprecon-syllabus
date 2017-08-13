@@ -1,5 +1,7 @@
 # Computation Reconsidered (ATEK/IIMC-590)
-Sandbox for class prep. 
+
+Class prep sandbox.
+
 Instructor: Stephanie Smith
+
 Departments: Integrated Media, Art and Technology
-California Institute of the Arts
