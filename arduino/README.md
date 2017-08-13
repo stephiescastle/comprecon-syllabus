@@ -24,6 +24,8 @@ Slides: link goes here
 https://www.arduino.cc/
 
 - What is an arduino (microcontroller)
+- We're using the [Arduino Uno](http://www.arduino.org/products/boards/arduino-uno). Some students will be using the [Arduino Mega](http://www.arduino.org/products/boards/arduino-mega-2560)
+	> Check for processer type
 - Download and install: https://www.arduino.cc/en/Main/Software
 
 ## Turn on built-in LED
@@ -68,6 +70,8 @@ Purpose: Introduce a manipulatable variable. The equivalent of a "sensor"
 `Okay, so it’s always looping and it’s always the same. What if we want it to do something different?`
 
 ## Using Conditionals
+
+> Work in `for` and `while` loops. Right now this only covers `if/else` statements
 
 ### If knob is in a value range
 
