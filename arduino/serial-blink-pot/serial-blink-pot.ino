@@ -18,8 +18,11 @@
 */
 
 int knobPin = A0;
-int ledPin = LED_BUILTIN;
-int knobValue = 0;
+int ledPin = LED_BUILTIN; // 13
+int knobValue = 0; // variable for reading the knob
+
+int switchPin = 4;
+int switchState = 0; // variable for reading the switch
 
 void setup() {
   
@@ -27,6 +30,10 @@ void setup() {
   
   // initialize digital pin LED_BUILTIN as an output.
   pinMode(ledPin, OUTPUT);
+  
+  // initialize the pushbutton pin as an input:
+  pinMode(switchPin, INPUT);
+
   // start serial communications at 9600 baud
   Serial.begin(9600);
   
@@ -34,25 +41,35 @@ void setup() {
 
 void loop() {
   // must read it repeatedly to repeatedly evaluate this conditional
+
+  switchState = digitalRead(switchPin);
+  Serial.println(switchState);
   knobValue = analogRead(knobPin);
-  
-  if (knobValue < 200) {
-    // read the value from the knob:
-    Serial.println(knobValue);
-    // turn the ledPin on
-    digitalWrite(ledPin, HIGH);
-    // stop the program for <knobValue> milliseconds:
-    delay(knobValue);
-    // turn the ledPin off:
-    digitalWrite(ledPin, LOW);
-    // stop the program for for <knobValue> milliseconds:
-    delay(knobValue);    
+
+  if (switchState == 1) {
+    if (knobValue < 200) {
+      // read the value from the knob:
+      Serial.println(knobValue);
+      // turn the ledPin on
+      digitalWrite(ledPin, HIGH);
+      // stop the program for <knobValue> milliseconds:
+      delay(knobValue);
+      // turn the ledPin off:
+      digitalWrite(ledPin, LOW);
+      // stop the program for for <knobValue> milliseconds:
+      delay(knobValue);    
+    } else {
+      digitalWrite(ledPin, LOW);
+      Serial.print("Off, ");
+      Serial.println(knobValue);
+      delay(knobValue);
+    }    
   } else {
-    digitalWrite(ledPin, LOW);
-    Serial.print("Off, ");
-    Serial.println(knobValue);
-    delay(knobValue);
+    // off
+    Serial.println(switchState);
+    delay(500);
   }
+
 
 
 
