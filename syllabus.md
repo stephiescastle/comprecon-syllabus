@@ -12,22 +12,22 @@ GitHub Organization: https://github.com/computation-reconsidered :eyes:
 
 ## Schedule
 
-| #  | Date  | Topic                |  
-| -- | ----- | -------------------- |  
-| 01 | 09/12 | **Arduino**, Git, GitHub |  
-| 02 | 09/19 | **Arduino** |  
-| 03 | 09/26 | **Arduino** |  
-| 04 | 10/03 | **Processing** |  
-| 05 | 10/10 | **Processing** + Arduino |  
-| 06 | 10/17 | **Processing** + Arduino |  
-| 07 | 10/24 | **PureData, Max/MSP** |  
-| 08 | 10/31 | **PureData, Max/MSP** |  
-| 09 | 11/07 | **PureData, Max/MSP** + Processing |  
-| 10 | 11/14 | **Final Project** Proposls, Form Groups |  
-| 11 | 11/21 | **Final Project** Development |  
-| 12 | 11/28 | **Final Project** Development |  
-| 13 | 12/05 | **Final Project** Development |  
-| 14 | 12/12 | Gallery Open |  
+| #  | Date  | Topic                                    | Secondary Topics | 
+| -- | ----- | ---------------------------------------- | ---------------- |
+| 01 | 09/12 | **Arduino**, Git, GitHub                 |  |
+| 02 | 09/19 | **Arduino**                              | Sensors, Soldering |
+| 03 | 09/26 | **Arduino**                              | Sensors, Soldering |
+| 04 | 10/03 | **Processing**                           |  |
+| 05 | 10/10 | **Processing** + Arduino                 |  |
+| 06 | 10/17 | **Processing** + Arduino                 |  |
+| 07 | 10/24 | **PureData, Max/MSP**                    | MIDI Controllers, Phone as controller |
+| 08 | 10/31 | **PureData, Max/MSP** + Arduino          |  |
+| 09 | 11/07 | **PureData, Max/MSP** + Processing       | OSC |
+| 10 | 11/14 | **Final Project** Proposals, Form Groups |  |
+| 11 | 11/21 | **Final Project** Development            |  |
+| 12 | 11/28 | **Final Project** Development            |  |
+| 13 | 12/05 | **Final Project** Development            |  |
+| 14 | 12/12 | Gallery Open                             |  |
 
 ## Units
 
