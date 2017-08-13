@@ -28,7 +28,7 @@ https://www.arduino.cc/
 	> Check for processer type
 - Download and install: https://www.arduino.cc/en/Main/Software
 
-## Turn on built-in LED
+## Lesson 1: Turn on built-in LED
 
 Purpose: The "Hello World" for Arduino
 
@@ -36,7 +36,7 @@ Purpose: The "Hello World" for Arduino
 - Arduino
 - USB Cable
 
-## Make built-in LED blink
+## Lesson 2: Make built-in LED blink
 
 Purpose: Learn about order of operations and program setup in Arduino. Emphasize how it's a giant loop.
 
@@ -51,7 +51,7 @@ Purpose: Learn about order of operations and program setup in Arduino. Emphasize
 		- Initialize when assigning a value (x = 1)
 		- Can do all in one step: int x = 1
 
-## Make external LED blink
+## Lesson 3: Make external LED blink
 
 ![external led](http://stephiescastle.com/teaching/computation-reconsidered/external-led_bb.svg)
 
@@ -62,7 +62,7 @@ Purpose: Introduce concepts of basic electronics
 - 120 ohm resistor
 - 3v LED
 
-## Use a knob to control the blink rate
+## Lesson 4: Use a knob to control the blink rate
 
 ![external led with potentiometer](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot_bb.svg)
 
@@ -73,22 +73,24 @@ Purpose: Introduce a manipulatable variable. The equivalent of a "sensor"
 
 `Okay, so it’s always looping and it’s always the same. What if we want it to do something different?`
 
-## Using Conditionals
-
 > Work in `for` and `while` loops. Right now this only covers `if/else` statements
 
-### If knob is in a value range
+## Lesson 5: Using conditionals: If knob is in a value range
 
 Purpose: Introduce using number ranges as a conditional
 
-### Modes using switches/toggle
+## Lesson 6: Using conditionals: Modes using switches
+
+![external led with potentiometer and switch](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot-toggle_bb.svg)
 
 Purpose: Introduce mode switching
 
 - switch
 - 120 ohm resistor
 
-### Momentary modes (momentary button)
+## Lesson 7: Using conditionals: Momentary modes (momentary button)
+
+![external led with potentiometer, switch and button](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot-toggle-button_bb.svg)
 
 Purpose: Introduce use of momentary buttons
 
