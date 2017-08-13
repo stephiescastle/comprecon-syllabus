@@ -4,4 +4,4 @@ Class prep sandbox.
 
 Instructor: Stephanie Smith
 
-Departments: Integrated Media, Art and Technology
+Departments: Integrated Media, Art and Technology // California Institute of the Arts
