@@ -1,10 +1,15 @@
 /*
   Adaption of Arduino's "Blink" example
 
-  - two switches
-  - small potentiometer
-  - LED
-  - 1 resistor
+  Full list of materials
+  - 1 arduino (uno)
+  - 1 usb cable
+  - 1 solderless breadboard
+  - 1 LED
+  - 4 10K ohm resistors
+  - 1 potentiometer (https://www.adafruit.com/product/356)
+  - 1 bb switch (https://www.adafruit.com/product/805)
+  - 1 bb momentary button (https://www.adafruit.com/product/1119)
 
   Process
   - LED on
@@ -33,13 +38,11 @@ void setup() {
   
   // put your setup code here, to run once
   
-  // initialize digital pin LED_BUILTIN as an output.
+  // initialize digital outputs
   pinMode(ledPin, OUTPUT);
   
-  // initialize the switch pin as an input:
+  // initialize digital inputs:
   pinMode(switchPin, INPUT);
-
-  // initialize the button pin as an input:
   pinMode(buttonPin, INPUT);
 
   // start serial communications at 9600 baud
@@ -48,55 +51,59 @@ void setup() {
 }
 
 void loop() {
+
+  // program goes here
   
   // must read it repeatedly to repeatedly evaluate this conditional
   buttonState = digitalRead(buttonPin);
   
 
   if (buttonState == HIGH) {
+    // button pressed
     Serial.print("Button: ");
     Serial.println(buttonState);
-    // just turn it on no matter what
-    digitalWrite(ledPin, HIGH);
-    buttonState = digitalRead(buttonPin);
-
-    // debug. somehow can't escape this is switch is off and push button is pressed. it just stays on.
+    digitalWrite(ledPin, HIGH);       // turn the ledPin on
     
-  } else {
+  } else { 
+    // button not pressed
     Serial.print("Button: ");
     Serial.println(buttonState);
-    // do the complicated stuff
+    
+    // so check if the switch is switched on
     switchState = digitalRead(switchPin);
     Serial.println(switchState);
-    knobValue = analogRead(knobPin);
-  
+
     if (switchState == 1) {
-      if (knobValue < 200) {
-        // read the value from the knob:
-        Serial.println(knobValue);
-        // turn the ledPin on
-        digitalWrite(ledPin, HIGH);
-        // stop the program for <knobValue> milliseconds:
-        delay(knobValue);
-        // turn the ledPin off:
-        digitalWrite(ledPin, LOW);
-        // stop the program for for <knobValue> milliseconds:
-        delay(knobValue);    
-      } else {
-        digitalWrite(ledPin, LOW);
-        Serial.print("Off, ");
+      // switch is on so read the value of the knob
+      knobValue = analogRead(knobPin);
+      Serial.println(knobValue);
+      
+      if (knobValue < 300) { 
+        // switch is on and knobValue is less than 200
+        digitalWrite(ledPin, HIGH);   // turn the ledPin on
+        delay(knobValue);             // stop the program for <knobValue> ms
+        digitalWrite(ledPin, LOW);    // turn the ledPin off
+        delay(knobValue);             // stop the program for <knobValue> ms
+        
+      } else { 
+        // switch is on and knobValue is 300 or higher
+        digitalWrite(ledPin, HIGH);   // turn the ledPin on
+        Serial.print("On, ");
         Serial.println(knobValue);
         delay(500);
-      }    
+        
+      } // end of knobValue if/else 
+      
     } else {
-      // off
-      digitalWrite(ledPin, LOW);
+      // switch is off
+      digitalWrite(ledPin, LOW);      // turn the ledPin off
       Serial.print("Switch: ");
       Serial.println(switchState);
-      delay(500);
-      switchState = digitalRead(switchPin);
-    } // end of switchState logic
-    buttonState = digitalRead(buttonPin);
+      
+    } // end of switchState if/else
+    
+    //buttonState = digitalRead(buttonPin);
+    
   } // end of buttonState logic
 
 }
