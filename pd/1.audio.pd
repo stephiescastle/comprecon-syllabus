@@ -1,0 +1,78 @@
+#N canvas 114 52 806 774 10;
+#X obj 28 -496 *~;
+#X obj -85 -494 *~;
+#X obj -35 -459 +~;
+#X obj -35 -282 *~;
+#X obj -20 -423 vsl 15 128 0 1 0 0 empty empty oscillators 0 -8 0 8
+-262144 -1 -1 0 1;
+#X floatatom -85 -711 5 0 0 0 - - -;
+#X floatatom 28 -711 5 0 0 0 - - -;
+#X obj -83 -851 pddp/dsp;
+#X obj 175 -149 dac~;
+#X obj 175 -182 *~;
+#X text 175 -130 hear it;
+#X obj 190 -350 vsl 25 128 0 1 0 0 empty empty master 0 -8 0 8 -262144
+-1 -1 0 1;
+#X msg 359 -605 1;
+#X text 261 -607 starts playback;
+#X obj 401 -438 vsl 15 128 0 1 0 0 empty empty sample_dry 0 -8 0 8
+-262144 -1 -1 0 1;
+#X obj 386 -298 *~;
+#X obj 359 -700 t b b;
+#X obj 386 -526 +~;
+#X obj 524 -300 *~;
+#X obj 539 -438 vsl 15 128 0 1 0 0 empty empty sample_wet 0 -8 0 8
+-262144 -1 -1 0 1;
+#X floatatom 599 -578 5 0 0 0 - - -;
+#X text 597 -600 delay time (s);
+#X obj 524 -477 delay~ 522050;
+#X obj 599 -501 * 44100;
+#X obj 386 -568 readsf~ 2;
+#X text -89 -729 FREQUENCY 1;
+#X text 23 -729 FREQUENCY 2;
+#X obj 107 -666 phasor~;
+#X obj 162 -666 cycle~;
+#X msg 386 -666 open samples/bell1.wav;
+#X obj 359 -725 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 357 -757 Play an audio file;
+#X obj -70 -632 vsl 15 128 0 1 0 0 empty empty osc1 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 43 -633 vsl 15 128 0 1 0 0 empty empty osc2 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj -85 -666 osc~ 330;
+#X obj 28 -667 osc~ 220;
+#X text -86 -805 Play specific frequencies;
+#X text -87 -760 Recommended range: 200 - 13000;
+#X text -86 -774 Human Audible Range: 20 - 20000;
+#X connect 0 0 2 1;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 9 0;
+#X connect 4 0 3 1;
+#X connect 5 0 34 0;
+#X connect 6 0 35 0;
+#X connect 9 0 8 0;
+#X connect 9 0 8 1;
+#X connect 11 0 9 1;
+#X connect 12 0 24 0;
+#X connect 14 0 15 1;
+#X connect 15 0 9 0;
+#X connect 16 0 12 0;
+#X connect 16 1 29 0;
+#X connect 17 0 15 0;
+#X connect 17 0 22 0;
+#X connect 18 0 9 0;
+#X connect 19 0 18 1;
+#X connect 20 0 23 0;
+#X connect 22 0 18 0;
+#X connect 23 0 22 1;
+#X connect 24 0 17 0;
+#X connect 24 1 17 1;
+#X connect 29 0 24 0;
+#X connect 30 0 16 0;
+#X connect 32 0 1 1;
+#X connect 33 0 0 1;
+#X connect 34 0 1 0;
+#X connect 35 0 0 0;
+#X coords 0 0 1 1 85 60 0;
