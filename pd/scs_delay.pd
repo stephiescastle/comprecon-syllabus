@@ -1,0 +1,33 @@
+#N canvas 336 296 583 549 10;
+#X obj -48 426 *~;
+#X obj -33 287 vsl 15 128 0 1 0 0 empty empty gain 0 -8 0 8 -262144
+-1 -1 9712 1;
+#X floatatom 27 206 5 0 0 0 - - -;
+#X text 25 184 delay time (s);
+#X obj -48 254 delay~ 522050;
+#X obj 27 229 * 44100;
+#X obj -48 452 outlet~;
+#X obj 1 33 inlet;
+#X text -3 16 delay time (s);
+#X obj 213 34 inlet;
+#X text 209 17 Delay Level;
+#X obj -123 37 inlet~;
+#X text -125 15 audio signal;
+#X obj -111 454 outlet~;
+#X obj -111 429 *~;
+#X obj -96 290 vsl 15 128 0 1 0 0 empty empty gain 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 124 37 inlet;
+#X text 120 20 Level;
+#X connect 0 0 6 0;
+#X connect 1 0 0 1;
+#X connect 2 0 5 0;
+#X connect 4 0 0 0;
+#X connect 5 0 4 1;
+#X connect 7 0 2 0;
+#X connect 9 0 1 0;
+#X connect 11 0 4 0;
+#X connect 11 0 14 0;
+#X connect 14 0 13 0;
+#X connect 15 0 14 1;
+#X connect 16 0 15 0;

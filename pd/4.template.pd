@@ -1,0 +1,394 @@
+#N canvas 257 63 1272 880 10;
+#X declare -lib tof;
+#X obj 1044 -6 *~;
+#X obj 1059 -146 vsl 30 128 0 1 0 0 empty empty Master_gain 0 -8 0
+8 -262144 -1 -1 5300 1;
+#X obj 1055 -203 pddp/dsp;
+#X obj 682 87 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 843 86 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X obj 843 20 * -1;
+#X floatatom 843 43 5 0 0 0 - - -;
+#X obj 1044 21 dac~;
+#X obj 682 -65 r z;
+#X obj 843 107 s z_trigger_lo;
+#X obj 682 107 s z_trigger_hi;
+#X text 679 -89 TRIGGERS;
+#X text 1079 20 Main DAC;
+#X text 62 120 RAW VALUES------------^;
+#X floatatom 401 -2 5 0 0 0 - - -;
+#X floatatom 450 -2 5 0 0 0 - - -;
+#X obj 401 25 vsl 15 75 0 1 0 0 empty empty x 0 85 0 10 -262144 -1
+-1 1985 1;
+#X obj 450 25 vsl 15 75 0 1 0 0 empty empty y 0 85 0 10 -262144 -1
+-1 4138 1;
+#X floatatom 500 -2 5 0 0 0 - - -;
+#X obj 501 25 vsl 15 75 0 1 0 0 empty empty z 0 85 0 10 -262144 -1
+-1 2048 1;
+#X obj 464 -153 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X floatatom 485 -153 5 2 20 0 - - -;
+#X obj 506 -102 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj 419 23 s x;
+#X obj 468 23 s y;
+#X obj 520 23 s z;
+#X text 461 -172 smoothing on/off;
+#X text 521 -154 amount (default 3);
+#N canvas 81 543 781 386 datacalibration 0;
+#X floatatom -55 252 5 0 0 0 - - -;
+#X floatatom 142 254 5 0 0 0 - - -;
+#X obj -77 326 switch 2;
+#X obj -77 276 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj -77 301 + 1;
+#X obj -32 302 average 3;
+#X floatatom 19 277 5 2 20 0 - - -;
+#X obj -246 194 inlet;
+#X text -246 176 raw x;
+#X obj -55 194 inlet;
+#X obj 142 196 inlet;
+#X text -55 176 raw y;
+#X text 142 178 raw z;
+#X obj 233 29 inlet;
+#X text 233 10 smoothing on/off;
+#X obj 273 44 inlet;
+#X obj -77 357 outlet;
+#X obj -268 329 switch 2;
+#X obj -268 279 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+0 1;
+#X obj -268 304 + 1;
+#X obj -223 305 average 3;
+#X floatatom -172 280 5 2 20 0 - - -;
+#X obj -268 360 outlet;
+#X floatatom -246 254 5 0 0 0 - - -;
+#X obj 120 328 switch 2;
+#X obj 120 278 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 120 303 + 1;
+#X obj 165 304 average 3;
+#X floatatom 216 279 5 2 20 0 - - -;
+#X obj 120 359 outlet;
+#X text 344 230 SCALING;
+#X text 344 280 AVERAGING;
+#X text 344 357 OUTPUT;
+#X text 343 194 INPUT;
+#X obj -28 116 sel 1;
+#X obj -169 116 sel 0;
+#X obj -28 96 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 273 25 amount;
+#X obj 336 75 inlet;
+#X text 335 55 sensitivity on/off;
+#X text -54 77 SENSITIVITY;
+#X text -131 117 Low;
+#X text 13 116 High;
+#X text -244 13 DATA CALIBRATION Takes three analog inputs \, scales
+them appropriately \, and also provides the option to smooth the data
+via averaging.;
+#X obj -246 230 maxlib/scale 0.03 0.84 0 1;
+#X obj -55 230 maxlib/scale 0.03 0.84 0 1;
+#X obj 142 230 maxlib/scale 0.03 0.84 0 1;
+#X msg -169 143 0.03;
+#X msg -144 143 0.84;
+#X msg -102 144 0.03;
+#X msg -72 144 0.84;
+#X msg -28 143 0.23;
+#X msg 2 143 0.64;
+#X msg 43 144 0.23;
+#X msg 73 144 0.64;
+#X obj 178 68 t a;
+#X msg 177 46 0;
+#X obj 157 21 loadbang;
+#X connect 2 0 16 0;
+#X connect 3 0 4 0;
+#X connect 4 0 2 0;
+#X connect 5 0 2 2;
+#X connect 6 0 5 1;
+#X connect 7 0 44 0;
+#X connect 9 0 45 0;
+#X connect 10 0 46 0;
+#X connect 13 0 55 0;
+#X connect 15 0 6 0;
+#X connect 15 0 21 0;
+#X connect 15 0 28 0;
+#X connect 17 0 22 0;
+#X connect 18 0 19 0;
+#X connect 19 0 17 0;
+#X connect 20 0 17 2;
+#X connect 21 0 20 1;
+#X connect 24 0 29 0;
+#X connect 25 0 26 0;
+#X connect 26 0 24 0;
+#X connect 27 0 24 2;
+#X connect 28 0 27 1;
+#X connect 34 0 51 0;
+#X connect 34 0 52 0;
+#X connect 34 0 53 0;
+#X connect 34 0 54 0;
+#X connect 35 0 47 0;
+#X connect 35 0 48 0;
+#X connect 35 0 49 0;
+#X connect 35 0 50 0;
+#X connect 36 0 35 0;
+#X connect 36 0 34 0;
+#X connect 38 0 36 0;
+#X connect 44 0 23 0;
+#X connect 44 0 17 1;
+#X connect 44 0 20 0;
+#X connect 45 0 0 0;
+#X connect 45 0 5 0;
+#X connect 45 0 2 1;
+#X connect 46 0 1 0;
+#X connect 46 0 24 1;
+#X connect 46 0 27 0;
+#X connect 47 0 44 3;
+#X connect 47 0 45 3;
+#X connect 48 0 44 4;
+#X connect 48 0 45 4;
+#X connect 49 0 46 3;
+#X connect 50 0 46 4;
+#X connect 51 0 44 3;
+#X connect 51 0 45 3;
+#X connect 52 0 44 4;
+#X connect 52 0 45 4;
+#X connect 53 0 46 3;
+#X connect 54 0 46 4;
+#X connect 55 0 18 0;
+#X connect 55 0 3 0;
+#X connect 55 0 25 0;
+#X connect 56 0 55 0;
+#X connect 57 0 56 0;
+#X restore 401 -28 pd datacalibration;
+#X obj 69 34 vsl 15 60 0.03 0.84 0 0 empty empty x 0 69 0 10 -262144
+-1 -1 1583 1;
+#X obj 124 34 vsl 15 60 0.03 0.84 0 0 empty empty y 0 69 0 10 -262144
+-1 -1 3299 1;
+#X obj 180 35 vsl 15 60 0.03 0.84 0 0 empty empty z 0 69 0 10 -262144
+-1 -1 1633 1;
+#N canvas 36 176 499 396 efficient 0;
+#X obj 6 7 inlet;
+#X obj 6 50 outlet;
+#X obj 54 50 inlet;
+#X obj 54 93 outlet;
+#X obj 103 93 inlet;
+#X obj 103 136 outlet;
+#X obj 60 290 receive ARDUINO_TEST_RESET;
+#X obj 6 28 mapping/resample 75;
+#X obj 54 71 mapping/resample 75;
+#X obj 103 114 mapping/resample 75;
+#X connect 0 0 7 0;
+#X connect 2 0 8 0;
+#X connect 4 0 9 0;
+#X connect 6 0 7 0;
+#X connect 6 0 8 0;
+#X connect 6 0 9 0;
+#X connect 7 0 1 0;
+#X connect 8 0 3 0;
+#X connect 9 0 5 0;
+#X restore 69 -20 pd efficient values;
+#X text 394 119 CALIBRATED VALUES--------^;
+#X text 526 -104 On/Off;
+#X text 505 -122 Less Sensitive;
+#X obj 843 64 threshold -0.2 -0.3 -0.5 1;
+#X obj 69 -98 arduino 2;
+#X msg 80 -149 close;
+#X msg 79 -126 devices;
+#X msg 69 -172 open \$1;
+#X obj 69 -71 route analog;
+#X obj 69 -46 route 0 1 2;
+#X text 128 -149 Remember to close;
+#X text 129 -127 To determine port;
+#X obj 59 201 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 70 223 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 81 246 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 93 269 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 104 290 5 0 0 0 - - -;
+#X floatatom 116 313 5 0 0 0 - - -;
+#X obj 59 343 scs_melody;
+#X obj 263 554 scs_pulse;
+#X obj 263 508 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X floatatom 314 529 5 0 0 0 - - -;
+#X obj 58 575 scs_reverb;
+#X obj 115 531 vsl 16 35 0 1 0 0 empty empty mix 0 -8 0 8 -262144 -1
+-1 2400 1;
+#X obj 774 215 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X symbolatom 785 239 20 0 0 0 - - -;
+#X obj 796 266 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 819 331 vsl 16 35 0 1 0 0 empty empty dry 0 -8 0 8 -262144 -1
+-1 0 1;
+#X obj 774 378 scs_sample;
+#X text 76 199 play;
+#X text 87 222 reset pitches;
+#X text 99 245 reset rhythm;
+#X text 111 267 reset both;
+#X text 141 290 max pitch (150 - 1500);
+#X text 155 312 max duration (50 - ???);
+#X floatatom 59 374 5 0 0 0 - - -;
+#X obj 485 325 scs_chord;
+#X floatatom 485 225 5 0 0 0 - - -;
+#X floatatom 510 247 5 0 0 0 - - -;
+#X obj 536 281 vsl 16 35 0 1 0 0 empty empty xfade 0 -8 0 8 -262144
+-1 -1 0 1;
+#X floatatom 263 580 5 0 0 0 - - -;
+#X text 767 195 SAMPLE PLAYBACK;
+#X text 814 264 loop on/off;
+#X floatatom 808 293 5 0 0 0 - - -;
+#X text 844 294 delay (s);
+#X obj 841 331 vsl 16 35 0 1 0 0 empty empty wet 0 -8 0 8 -262144 -1
+-1 0 1;
+#X text 793 211 play;
+#X text 54 489 REVERB;
+#X text 35 555 audio in;
+#X text 282 506 on/off;
+#X text 771 395 outputs audio signal;
+#X text 54 596 outputs audio signal;
+#X text 260 600 outputs numbers (connect to gain controls);
+#X text 548 325 xfade between two frequencies;
+#X text 482 344 outputs audio signal;
+#X text 55 392 outputs frequency numbers;
+#X obj 589 598 scs_delay;
+#X text 590 486 DELAY;
+#X text 552 576 audio in;
+#X floatatom 606 521 5 0 0 0 - - -;
+#X obj 648 553 vsl 16 35 0 1 0 0 empty empty delay 0 -8 0 8 -262144
+-1 -1 0 1;
+#X text 603 503 delay time (s);
+#X text 587 615 outputs audio signal;
+#X obj 932 510 vsl 16 35 0 1 0 0 empty empty gain 0 -8 0 8 -262144
+-1 -1 0 1;
+#X obj 917 554 *~;
+#X obj 784 528 phasor~;
+#X text 781 478 OSCILLATORS;
+#X obj 784 550 cycle~;
+#X obj 784 506 osc~;
+#X text 54 454 EFFECTS-----------------------------------------------------
+;
+#X text 414 454 ---------------------------------------------------
+;
+#X text 703 162 ---------------------------------------------------
+;
+#X text 343 162 AUDIO SOURCES ----------------------------------------------
+;
+#X text 344 195 SIMPLE OSCILLATOR;
+#X obj 362 278 vsl 16 35 0 1 0 0 empty empty gain 0 -8 0 8 -262144
+-1 -1 850 1;
+#X obj 347 322 *~;
+#X floatatom 347 223 5 0 0 0 - - -;
+#X text 483 195 OSCILLATOR XFade;
+#X text 55 163 RANDOM MELODY GENERATOR;
+#X text 52 405 send these values to an oscillator;
+#X text 1009 162 ----------------;
+#X text 914 478 GAIN CONTROL;
+#X obj 347 247 osc~;
+#X text 349 530 rate (ms);
+#X obj 623 553 vsl 16 35 0 1 0 0 empty empty raw 0 -8 0 8 -262144 -1
+-1 0 1;
+#X text 781 456 BASICS-----------------------------;
+#X text 1019 457 EXTRAS-----------------------------;
+#X obj 1020 551 scs_filechooser;
+#X text 1017 482 RANDOM FILE CHOOSER;
+#X obj 1020 521 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 1107 530 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X symbolatom 1020 580 30 0 0 0 - - -;
+#X text 137 -195 Port No.;
+#X obj 69 -193 hradio 15 1 0 4 empty empty empty 0 -8 0 10 -262144
+-1 -1 2;
+#X text 70 -226 ARDUINO CONNECT;
+#X text 73 -210 0;
+#X text 87 -210 1;
+#X text 102 -210 2;
+#X text 118 -210 3;
+#X obj 681 -128 maxlib/scale 0.25 0.7 200 600;
+#X text 680 -159 MAPPING;
+#X text 1016 502 2 Pick a file;
+#X text 1128 527 1 Set folder;
+#X text 915 238 samples/bell1.wav;
+#X text 259 487 TREMOLO (amplitude modulation);
+#X obj 1016 609 print;
+#X obj 262 179 maxlib/scale 0.25 0.7 200 600;
+#X obj 682 64 threshold 0.69 1 0.5 1;
+#X connect 0 0 7 0;
+#X connect 0 0 7 1;
+#X connect 1 0 0 1;
+#X connect 3 0 10 0;
+#X connect 3 0 45 0;
+#X connect 4 0 9 0;
+#X connect 5 0 6 0;
+#X connect 6 0 36 0;
+#X connect 8 0 5 0;
+#X connect 8 0 140 0;
+#X connect 14 0 16 0;
+#X connect 15 0 17 0;
+#X connect 18 0 19 0;
+#X connect 20 0 28 3;
+#X connect 21 0 28 4;
+#X connect 22 0 28 5;
+#X connect 28 0 14 0;
+#X connect 28 0 23 0;
+#X connect 28 1 15 0;
+#X connect 28 1 24 0;
+#X connect 28 2 18 0;
+#X connect 28 2 25 0;
+#X connect 32 0 29 0;
+#X connect 32 0 28 0;
+#X connect 32 1 30 0;
+#X connect 32 1 28 1;
+#X connect 32 2 31 0;
+#X connect 32 2 28 2;
+#X connect 36 0 4 0;
+#X connect 37 0 41 0;
+#X connect 38 0 37 0;
+#X connect 39 0 37 0;
+#X connect 40 0 37 0;
+#X connect 41 0 42 0;
+#X connect 42 0 32 0;
+#X connect 42 1 32 1;
+#X connect 42 2 32 2;
+#X connect 45 0 51 0;
+#X connect 46 0 51 1;
+#X connect 47 0 51 2;
+#X connect 48 0 51 3;
+#X connect 49 0 51 4;
+#X connect 50 0 51 5;
+#X connect 51 0 68 0;
+#X connect 52 0 73 0;
+#X connect 53 0 52 0;
+#X connect 54 0 52 1;
+#X connect 56 0 55 1;
+#X connect 57 0 61 0;
+#X connect 58 0 61 1;
+#X connect 59 0 61 2;
+#X connect 60 0 61 4;
+#X connect 68 0 109 0;
+#X connect 70 0 69 0;
+#X connect 71 0 69 1;
+#X connect 72 0 69 2;
+#X connect 73 0 107 0;
+#X connect 76 0 61 3;
+#X connect 78 0 61 5;
+#X connect 92 0 89 1;
+#X connect 93 0 89 3;
+#X connect 96 0 97 1;
+#X connect 107 0 108 1;
+#X connect 108 0 0 0;
+#X connect 109 0 115 0;
+#X connect 115 0 108 0;
+#X connect 117 0 89 2;
+#X connect 120 0 124 0;
+#X connect 120 0 138 0;
+#X connect 122 0 120 0;
+#X connect 123 0 120 1;
+#X connect 126 0 40 0;
+#X connect 140 0 3 0;
+#X coords 0 0 1 1 85 60 0;
