@@ -15,11 +15,15 @@ void setup() {
   // initialize digital outputs
   pinMode(ledPin, OUTPUT);
 
+  // start serial communications at 9600 baud
+  Serial.begin(9600);
+  
 }
 
 void loop() {
   // main program goes here
 
   digitalWrite(ledPin, HIGH);   // turn the ledPin on
+  Serial.println("On");
 
 }

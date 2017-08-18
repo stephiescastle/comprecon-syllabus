@@ -1,7 +1,9 @@
 /**************************************
-  Lesson 2: Make built-in LED blink
+ Lesson 2: Make built-in LED blink
+ 
+ Lesson 3: Make external LED blink
   
- Materials
+ Additional Materials
   - 1 solderless breadboard
   - 1 LED
   - 1 10K ohm resistors
