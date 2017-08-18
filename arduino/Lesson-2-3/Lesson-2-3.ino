@@ -15,7 +15,7 @@ int ledPin = LED_BUILTIN; // same as pin 13
 void setup() {
   // put your setup code here, which runs once
   
-  // initialize digital outputs
+  // set digital pin as output
   pinMode(ledPin, OUTPUT);
 
   // start serial communications at 9600 baud

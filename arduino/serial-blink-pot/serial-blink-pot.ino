@@ -36,13 +36,12 @@ int buttonPin = 2;    // digital pin because binary  (on/off)
 int buttonState = 0;  // variable for reading the button
 
 void setup() {
-  
   // put your setup code here, which runs once
   
-  // initialize digital outputs
+  // set digital pin as output
   pinMode(ledPin, OUTPUT);
   
-  // initialize digital inputs:
+  // set digital pins as inputs:
   pinMode(switchPin, INPUT);
   pinMode(buttonPin, INPUT);
 
@@ -52,8 +51,7 @@ void setup() {
 }
 
 void loop() {
-
-  // program goes here
+  // main program goes here
   
   // must read it repeatedly to repeatedly evaluate this conditional
   buttonState = digitalRead(buttonPin);
