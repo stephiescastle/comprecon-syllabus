@@ -1,6 +1,8 @@
-/*
-  Adaption of Arduino's "Blink" example
-
+/**************************************
+  Arduino Complete Lesson
+  Computation Reconsidered
+  Fall 2017, CalArts
+  
   Full list of materials
   - 1 arduino (uno)
   - 1 usb cable
@@ -20,10 +22,9 @@
   - if knob value is above a certain number
   - use switch to check for modes (will this require metro?)
   - use two switches to nest mode (will this require metro?)
-*/
+**************************************/
 
-
-int ledPin = LED_BUILTIN; // 13
+int ledPin = LED_BUILTIN; // same as pin 13
 
 int knobPin = A0;     // analog pin because range of numbers
 int knobValue = 0;    // variable for reading the knob
@@ -36,7 +37,7 @@ int buttonState = 0;  // variable for reading the button
 
 void setup() {
   
-  // put your setup code here, to run once
+  // put your setup code here, which runs once
   
   // initialize digital outputs
   pinMode(ledPin, OUTPUT);
