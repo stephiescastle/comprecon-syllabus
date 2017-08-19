@@ -99,6 +99,12 @@ Purpose: Introduce use of momentary buttons
 
 -----------
 
+# Helpful Links / More Resources
+
+* [When to use pinMode](https://www.baldengineer.com/when-to-use-arduinos-pinmode-and-why.html)
+
+* more
+
 `draft`
 We just discovered basically everything a computer/program can do. These basic things a computer can do. It’s the combinations of these things that make programs happen (and also the fact that a computer can do hundreds of these things at a time)
 Basic math

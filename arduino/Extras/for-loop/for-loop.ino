@@ -11,15 +11,12 @@
 
 **************************************/
 
-//Dim an LED using a PWM pin
-int ledPin = LED_BUILTIN; // same as pin 13
-
 // Dim an LED using a PWM pin
 int ledPin = 10; // LED in series with 470 ohm resistor on pin 10
 
 void setup()
 {
-  // no setup needed
+  pinMode(ledPin,INPUT);
 }
 
 void loop()
