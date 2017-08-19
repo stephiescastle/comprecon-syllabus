@@ -31,7 +31,6 @@ void setup()
   // not necessary, but doesn't hurt
   pinMode(ledPin,INPUT);
 
-  Serial.begin(9600);
 }
 
 void loop()
@@ -41,8 +40,6 @@ void loop()
   for (int i=0; i <= 255; i++){
     analogWrite(ledPin, i);
     delay(10);
-    Serial.print("Up, ");
-    Serial.println(i);
   }
 
   // how to make it do the reverse?
