@@ -44,6 +44,8 @@ void loop()
     Serial.print("Up, ");
     Serial.println(i);
   }
+
+  // how to make it do the reverse?
   
 }
 
