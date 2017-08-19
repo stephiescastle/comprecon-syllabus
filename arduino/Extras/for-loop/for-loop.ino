@@ -1,13 +1,25 @@
 /**************************************
-  The for loop
+  Example: Dim and LED using a for loop and a PWM pin 
+
+--The for loop ------------------------
   
-  The for statement is used to repeat a block of statements 
-  enclosed in curly braces. An increment counter is usually 
-  used to increment and terminate the loop. 
+  The for loop repeats a block of statements. An increment 
+  counter is usually used to increment and terminate the loop. 
+
+  For loops begin with a statement that consists of
+  - variable initialization (int i = x)
+  - condition to check against (i <, <=, >, >= y)
+  - increment rule (i++/i--)
+
+  for (variable init; condition; increment) {}
+
+--PWM Pins ----------------------------
   
-  The for statement is useful for any repetitive operation, 
-  and is often used in combination with arrays to operate on 
-  collections of data/pins.
+  Pulse Width Modulation, or PWM, is a technique for getting 
+  analog results with a digital pin and can output a range of
+  0-255 instead of just 0 or 1.
+
+  Technical details: https://www.arduino.cc/en/Tutorial/PWM
 
 **************************************/
 
@@ -16,17 +28,21 @@ int ledPin = 10; // LED in series with 470 ohm resistor on pin 10
 
 void setup()
 {
+  // not necessary, but doesn't hurt
   pinMode(ledPin,INPUT);
+
+  Serial.begin(9600);
 }
 
 void loop()
 {
   
-  // for (variable init; condition; increment) {}
-  
+//for (variable init; condition; increment) {}  
   for (int i=0; i <= 255; i++){
     analogWrite(ledPin, i);
     delay(10);
+    Serial.print("Up, ");
+    Serial.println(i);
   }
   
 }
