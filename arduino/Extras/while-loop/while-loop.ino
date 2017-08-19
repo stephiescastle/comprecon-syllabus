@@ -1,7 +1,7 @@
 /**************************************
-  Example: Dim an LED using a for loop and a PWM pin 
+  Example: Dim an LED using a while loop and a PWM pin 
 
---The for loop ------------------------
+--The while loop ------------------------
   
   The for loop repeats a block of statements. An increment 
   counter is usually used to increment and terminate the loop. 
@@ -13,13 +13,22 @@
 
   for (variable init; condition; increment) {}
 
---PWM Pins ----------------------------
-  
-  Pulse Width Modulation, or PWM, is a technique for getting 
-  analog results with a digital pin and can output a range of
-  0-255 instead of just 0 or 1.
+  for loop vs while loop
+  - fwhile loops can usually always replace a for loop, but consider the following
+  - for loop's structure implies you only need that variable for that increment.
+  - while loop can use another variable 
+  - if all you truly want is a for loop, then might as well use it because it's 
+  simpler to write, cleaner. 
+  - while loops can have more complex ways to increment/ change the value of the 
+  variable being evaluated.
 
-  Technical details: https://www.arduino.cc/en/Tutorial/PWM
+  if only evaluates at hte beginning
+  and while evaluates at the beginning and the end
+
+  If not careful, while can freeze or block your code from doing other things
+  so I tend to use if statements. It ultimately just depends on what you want
+  your program to do in the end.
+  
 
 **************************************/
 
@@ -35,10 +44,12 @@ void setup()
 void loop()
 {
   
-//for (variable init; condition; increment) {}  
-  for (int i=0; i <= 255; i++){
+  int i = 0;
+  
+  while (i <= 255){
     analogWrite(ledPin, i);
     delay(10);
+    i++;
   }
 
   // how to make it do the reverse?
