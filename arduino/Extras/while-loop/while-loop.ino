@@ -9,7 +9,7 @@
   This could be in your code, such as an incremented variable, or an 
   external condition, such as testing a sensor.
 
-  for loops can usually replaced by a while loop, but the structure
+  for loops can usually be replaced with a while loop, but the structure
   of a for loop is usually easier to write and keep track of.
 
   If you aren't careful, a while loop can freeze or block your code 
@@ -30,7 +30,7 @@ void setup()
 void loop()
 {
   
-  int i = 0;
+  int i = 0; // note the placement of the variable init
   
   while (i <= 255){
     analogWrite(ledPin, i);
