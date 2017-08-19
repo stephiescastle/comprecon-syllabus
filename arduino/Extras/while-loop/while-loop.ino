@@ -3,33 +3,19 @@
 
 --The while loop ------------------------
   
-  The for loop repeats a block of statements. An increment 
-  counter is usually used to increment and terminate the loop. 
+  while loops will loop continuously, and infinitely, until the 
+  expression inside the parenthesis, () becomes false. Something 
+  must change the tested variable, or the while loop will never exit. 
+  This could be in your code, such as an incremented variable, or an 
+  external condition, such as testing a sensor.
 
-  For loops begin with a statement that consists of
-  - variable initialization (int i = x)
-  - condition to check against (i <, <=, >, >= y)
-  - increment rule (i++/i--)
+  for loops can usually replaced by a while loop, but the structure
+  of a for loop is usually easier to write and keep track of.
 
-  for (variable init; condition; increment) {}
-
-  for loop vs while loop
-  - fwhile loops can usually always replace a for loop, but consider the following
-  - for loop's structure implies you only need that variable for that increment.
-  - while loop can use another variable 
-  - if all you truly want is a for loop, then might as well use it because it's 
-  simpler to write, cleaner. 
-  - while loops can have more complex ways to increment/ change the value of the 
-  variable being evaluated.
-
-  if only evaluates at hte beginning
-  and while evaluates at the beginning and the end
-
-  If not careful, while can freeze or block your code from doing other things
-  so I tend to use if statements. It ultimately just depends on what you want
-  your program to do in the end.
+  If you aren't careful, a while loop can freeze or block your code 
+  from doing other things so I tend to use if statements. It ultimately 
+  just depends on what you want your program to do in the end.
   
-
 **************************************/
 
 int ledPin = 10; // LED in series with 470 ohm resistor on pin 10
