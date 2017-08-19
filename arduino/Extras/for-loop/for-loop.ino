@@ -1,5 +1,5 @@
 /**************************************
-  Example: Dim and LED using a for loop and a PWM pin 
+  Example: Dim an LED using a for loop and a PWM pin 
 
 --The for loop ------------------------
   
@@ -23,7 +23,6 @@
 
 **************************************/
 
-// Dim an LED using a PWM pin
 int ledPin = 10; // LED in series with 470 ohm resistor on pin 10
 
 void setup()
