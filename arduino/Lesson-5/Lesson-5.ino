@@ -25,7 +25,7 @@ void loop() {
   knobValue = analogRead(knobPin);  // read the value of the knob and set it as <knobValue>
 
   if (knobValue < 300) { 
-    // knobValue is less than 200
+    // knobValue is less than 300
     
     knobValue = analogRead(knobPin);
     
@@ -46,6 +46,7 @@ void loop() {
     digitalWrite(ledPin, HIGH);       // turn the ledPin on
     Serial.print("On, Knob=");
     Serial.println(knobValue);
+    
   } // end of knobValue if/else 
 
 }
