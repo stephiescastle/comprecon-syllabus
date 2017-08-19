@@ -1,6 +1,6 @@
 /**************************************
- Using Conditionals
- Lesson 5: Use knob range as a conditional
+ Lesson 5: Using Conditionals: Use knob range as a conditional
+ 
 **************************************/
 
 int ledPin = LED_BUILTIN; // same as pin 13
