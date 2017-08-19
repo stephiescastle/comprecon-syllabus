@@ -9,7 +9,7 @@
 
 int ledPin = LED_BUILTIN; // same as pin 13
 
-int knobPin = A1;     // analog pin because range of numbers
+int knobPin = A0;     // analog pin because range of numbers
 int knobValue = 0;    // variable for reading the knob
 
 int switchPin = 7;    // digital pin because binary (on/off)

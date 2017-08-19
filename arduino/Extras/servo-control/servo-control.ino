@@ -35,6 +35,6 @@ void loop() {
   Serial.print(", Mapped to: ");
   Serial.println(knobValue);
   myservo.write(knobValue); 
-  delay(15);
+  delay(50);
 
 }
