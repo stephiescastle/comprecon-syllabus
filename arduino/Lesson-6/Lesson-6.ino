@@ -57,7 +57,7 @@ void loop() {
       delay(knobValue);                 // stop the program for <knobValue> ms
       
     } else { 
-      //knobValue is 300 or greater
+      // switch is on and knobValue is 300 or greater
       digitalWrite(ledPin, HIGH);       // turn the ledPin on
       Serial.print("On, Knob=");
       Serial.println(knobValue);
