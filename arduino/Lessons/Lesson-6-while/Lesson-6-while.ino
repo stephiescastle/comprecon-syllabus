@@ -1,5 +1,7 @@
 /**************************************
  Lesson 6: Using Conditionals: Switch between modes
+
+ Using the while loop -- this code breaks it. Why?
   
   Additional materials
   - 1 10K ohm resistors
@@ -36,12 +38,12 @@ void loop() {
   Serial.print("Switch: ");
   Serial.println(switchState);
 
-  while (digitalRead(switchPin); == 1) {
+  while (digitalRead(switchPin) == 1) {
     // switch is on so read the value of the knob
     
     knobValue = analogRead(knobPin);
     
-    if (knobValue < 300) { 
+    while (knobValue < 300) { 
       // switch is on and knobValue is less than 300
       knobValue = analogRead(knobPin);
       
@@ -57,8 +59,10 @@ void loop() {
       Serial.println(knobValue);
       delay(knobValue);                 // stop the program for <knobValue> ms
       
-    } else { 
+    } 
+    while (knobValue > 300) { 
       // switch is on and knobValue is 300 or greater
+      knobValue = analogRead(knobPin);
       digitalWrite(ledPin, HIGH);       // turn the ledPin on
       Serial.print("On, Knob=");
       Serial.println(knobValue);
@@ -66,7 +70,7 @@ void loop() {
     } // end of knobValue if/else 
     
   } 
-  while (digitalRead(switchPin); == 0) {
+  while (digitalRead(switchPin) == 0) {
     // switch is off
     digitalWrite(ledPin, LOW);          // turn the ledPin off
     
