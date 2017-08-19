@@ -79,7 +79,7 @@ Purpose: Introduce a manipulatable variable. The equivalent of a "sensor"
 
 Purpose: Introduce using number ranges as a conditional
 
-## Lesson 6: Using conditionals: Modes using switches
+## Lesson 6: Using conditionals: Switch between modes
 
 ![external led with potentiometer and switch](http://stephiescastle.com/teaching/computation-reconsidered/external-led-pot-toggle_bb.svg?v=4)
 
