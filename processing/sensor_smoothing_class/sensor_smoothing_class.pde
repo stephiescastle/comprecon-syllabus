@@ -1,3 +1,8 @@
+/*------------------------------------------------------------------
+  This example uses the same averaging function but now it has
+  been converted into a class for easy use/re-use.
+------------------------------------------------------------------*/
+
 import processing.serial.*;
 import cc.arduino.*;
 

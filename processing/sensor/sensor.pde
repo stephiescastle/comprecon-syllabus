@@ -1,3 +1,7 @@
+/*------------------------------------------------------------------
+  Simple setup for reading data from an arduino
+------------------------------------------------------------------*/
+
 import processing.serial.*;
 import cc.arduino.*;
 

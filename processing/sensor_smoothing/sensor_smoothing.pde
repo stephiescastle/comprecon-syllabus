@@ -1,3 +1,8 @@
+/*------------------------------------------------------------------
+  This example uses an averaging function to smooth the data
+  Adapted from the smoothing example included in the Arduino IDE
+------------------------------------------------------------------*/
+
 import processing.serial.*;
 import cc.arduino.*;
 
