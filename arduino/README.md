@@ -10,8 +10,8 @@ Slides: link goes here
 - Jumper cables
 - 1 LED
 - 1 potentiometer
-- 1 resistor
-- 2 switches
+- 4 resistors
+- 1 switch
 - 1 button
 
 **Concepts**
@@ -28,7 +28,7 @@ https://www.arduino.cc/
 	> Check for processer type
 - Download and install: https://www.arduino.cc/en/Main/Software
 
-## Lesson 1: Turn on built-in LED
+## Lesson 1: Turn on built-in LED ([link](https://github.com/stephiescastle/computation-reconsidered/tree/master/arduino/Lessons/Lesson-1))
 
 Purpose: The "Hello World" for Arduino
 
@@ -97,27 +97,51 @@ Purpose: Introduce use of momentary buttons
 - button
 - 10kΩ resistor
 
------------
+---
+
+# Concepts
+
+## Computers and Object-Oriented Programming
+
+We just discovered basically everything a computer/program can do:
+
+- Basic math
+- Simple decisions
+- Move data from one place to another
+- Loop
+
+It’s the combinations of these things that make programs happen (and also the fact that a computer can do hundreds of these things at a time).
+
+### Development Strategies
+
+The lessons above walked us through an iterative exploratory exercise. "Exploratory programming" is a super fun, creative and effective way to learn how to program, but what about when you have a specific goal in mind?
+
+#### Basic Development Method
+- Define the problem that needs to be solved
+- Design a solution
+- Write a program that implements the solution
+- Compile and run that program
+- Test and debug
+
+#### Complex Development Method
+
+To tackle a complex problem:
+
+- **break the problem down into a series of conditionals**
+- apply the basic development method (including testing and debugging) to each conditional
+- combine all of your solutions into a master program. Note that this step will also require testing and debugging 
+
+## Version Control and GitHub
+
+- terminal
+- sharing code
+- version control
+- github
+
+--- 
 
 # Helpful Links / More Resources
 
 * [When to use pinMode](https://www.baldengineer.com/when-to-use-arduinos-pinmode-and-why.html)
 
-* more
 
-`draft`
-We just discovered basically everything a computer/program can do. These basic things a computer can do. It’s the combinations of these things that make programs happen (and also the fact that a computer can do hundreds of these things at a time)
-Basic math
-Simple decisions
-Move data from one place to another
-Loop
-We just did an iterative exploratory exercise. Super fun and creative way and is also an effective way to learn. But what if you have an idea of something specific you want to create? 
-Development Concepts
-Define the problem that needs to be solved
-Design a solution
-Knowing what a computer can do and the components of what a programming language can do
-Write a program that implements the solution
-Compile and run that program
-Test and debug
-
-## Code Repositories / Sharing Code
