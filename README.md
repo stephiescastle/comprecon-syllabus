@@ -33,12 +33,12 @@ GitHub Organization: https://github.com/computation-reconsidered :eyes:
 
 ### Arduino
 
-Website: https://www.arduino.cc/
+Website: https://www.arduino.cc/  
 Download: https://www.arduino.cc/en/Main/Software
 
 ### Processing
 
-Website: https://processing.org/
+Website: https://processing.org/  
 Download: https://processing.org/download/
 
 ### Visual Programming Languages ([PureData](https://puredata.info/), [Max/MSP](https://cycling74.com/products/max/))
