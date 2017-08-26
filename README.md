@@ -12,9 +12,9 @@ GitHub Organization: https://github.com/computation-reconsidered :eyes:
 
 ## Schedule
 
-| #  | Date  | Topic                                    | Secondary Topics | 
-| -- | ----- | ---------------------------------------- | ---------------- |
-| 01 | 09/12 | **Arduino**, Git, GitHub                 |  |
+| #  | Date  | Topic                                    | Secondary Topics   | 
+| -- | ----- | ---------------------------------------- | ------------------ |
+| 01 | 09/12 | **Arduino** 							                | Git, GitHub        |
 | 02 | 09/19 | **Arduino**                              | Sensors, Soldering |
 | 03 | 09/26 | **Arduino**                              | Sensors, Soldering |
 | 04 | 10/03 | **Processing**                           |  |
