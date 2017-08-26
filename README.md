@@ -10,6 +10,12 @@ How can computation be reconsidered within the critical contexts of an art pract
 
 GitHub Organization: https://github.com/computation-reconsidered :eyes:
 
+## Grades
+
+| Attendance and Participation | 60% |
+| -- | -- |
+| **Final Project** | **40%** |
+
 ## Schedule
 
 | #  | Date  | Topic                                    | Secondary Topics   | 
