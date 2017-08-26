@@ -1,11 +1,12 @@
 
 #include "Smoother.h"
-Smoother mySmoother = Smoother(40);
+Smoother mySmoother = Smoother(10);
 
 int rawData = 0;
 int smoothData = 0;
 
 int inputPin = A0;
+
 
 void setup() {
   // initialize serial communication with computer:
