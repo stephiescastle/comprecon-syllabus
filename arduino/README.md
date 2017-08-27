@@ -110,7 +110,7 @@ We just discovered basically everything a computer/program can do:
 - Move data from one place to another
 - Loop
 
-It’s the combinations of these things that make programs happen (and also the fact that a computer can do hundreds of these things at a time).
+It’s the combinations of these things **arranged into a set of instructions** that make a computer program.
 
 ### Development Strategies
 
@@ -127,8 +127,8 @@ The lessons above walked us through an iterative exploratory exercise. "Explorat
 
 To tackle a complex problem:
 
-- **break the problem down into a series of conditionals**
-- apply the basic development method (including testing and debugging) to each conditional
+- **break the problem down into a series of one-step problems**
+- apply the basic development method (including testing and debugging) to each individual problem
 - combine all of your solutions into a master program. Note that this step will also require testing and debugging 
 
 ## Version Control and GitHub
