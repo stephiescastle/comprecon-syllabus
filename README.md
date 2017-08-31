@@ -6,11 +6,16 @@ Fall 2017 // Integrated Media, Art and Technology // California Institute of the
 
 Instructor: Stephanie Smith // scsmith@calarts.edu
 
-How can computation be reconsidered within the critical contexts of an art practice? In the first half of the semester, the student will be introduced to the aesthetic possibilities of combining art making, computer programming and digital technology. The classes will explore the fundamentals of programming and the more advanced techniques of screen based image processing, and computer graphics. During the second half of the semester, the students will investigate physical media, installation and interactive design. The focus of the class assignments will be the expressive capabilities of the human body in a sensor-based environment. The core concepts will involve a dialogue between physical action and digital information. A final group project will implement the body, sensors, and micro-controllers using computer programs written in class.
+How can computation be reconsidered within the critical contexts of an art practice? Students will be introduced to the aesthetic possibilities of combining art making, computer programming and digital technology. The classes will explore the fundamentals of programming in a variety of IDEs combined with the investigation of physical media, installation and interactive design. The focus of the class assignments will be the expressive capabilities of the human body in a sensor-based environment. The core concepts will involve a dialogue between physical action and digital information. A final group project will implement the body, sensors, and microcontrollers using computer programs written in class.
 
 GitHub Organization: https://github.com/comprecon :eyes:
 
-## Units
+## Topics
+
+### Version Control
+
+Git: https://git-scm.com/  
+GitHub: http://github.com  
 
 ### Arduino
 
@@ -22,18 +27,10 @@ Download: https://www.arduino.cc/en/Main/Software
 Website: https://processing.org/  
 Download: https://processing.org/download/
 
-### Visual Programming Languages ([PureData](https://puredata.info/), [Max/MSP](https://cycling74.com/products/max/))
+### Visual Programming Languages (PureData)
 
-PureData Download (Free Forever): https://puredata.info/downloads/pure-data  
-Max/MSP Download (Free Trial): https://cycling74.com/downloads
-
-Note: will need to pick just one. For whichever one, be sure to include dependent packages/libraries/folder structure.
-
-## Grades
-
-| Attendance and Participation | 60% |
-| -- | -- |
-| **Final Project** | **40%** |
+PureData: https://puredata.info/  
+PureData Download: https://puredata.info/downloads/pure-data  
 
 ## Schedule
 
@@ -54,6 +51,12 @@ Note: will need to pick just one. For whichever one, be sure to include dependen
 | 13 | 12/05 | **Final Project** Development            |  |
 | 14 | 12/12 | Gallery Open                             |  |
 
-## Helpful Links
+## Grading
+
+| Attendance and Participation | 60% |
+| -- | -- |
+| **Final Project** | **40%** |
+
+## Misc Resources
 - Recommended Text Editor: [Sublime Text](https://www.sublimetext.com/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
