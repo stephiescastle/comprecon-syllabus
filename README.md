@@ -8,7 +8,26 @@ Instructor: Stephanie Smith // scsmith@calarts.edu
 
 How can computation be reconsidered within the critical contexts of an art practice? In the first half of the semester, the student will be introduced to the aesthetic possibilities of combining art making, computer programming and digital technology. The classes will explore the fundamentals of programming and the more advanced techniques of screen based image processing, and computer graphics. During the second half of the semester, the students will investigate physical media, installation and interactive design. The focus of the class assignments will be the expressive capabilities of the human body in a sensor-based environment. The core concepts will involve a dialogue between physical action and digital information. A final group project will implement the body, sensors, and micro-controllers using computer programs written in class.
 
-GitHub Organization: https://github.com/computation-reconsidered :eyes:
+GitHub Organization: https://github.com/comprecon :eyes:
+
+## Units
+
+### Arduino
+
+Website: https://www.arduino.cc/  
+Download: https://www.arduino.cc/en/Main/Software
+
+### Processing
+
+Website: https://processing.org/  
+Download: https://processing.org/download/
+
+### Visual Programming Languages ([PureData](https://puredata.info/), [Max/MSP](https://cycling74.com/products/max/))
+
+PureData Download (Free Forever): https://puredata.info/downloads/pure-data  
+Max/MSP Download (Free Trial): https://cycling74.com/downloads
+
+Note: will need to pick just one. For whichever one, be sure to include dependent packages/libraries/folder structure.
 
 ## Grades
 
@@ -34,25 +53,6 @@ GitHub Organization: https://github.com/computation-reconsidered :eyes:
 | 12 | 11/28 | **Final Project** Development            |  |
 | 13 | 12/05 | **Final Project** Development            |  |
 | 14 | 12/12 | Gallery Open                             |  |
-
-## Units
-
-### Arduino
-
-Website: https://www.arduino.cc/  
-Download: https://www.arduino.cc/en/Main/Software
-
-### Processing
-
-Website: https://processing.org/  
-Download: https://processing.org/download/
-
-### Visual Programming Languages ([PureData](https://puredata.info/), [Max/MSP](https://cycling74.com/products/max/))
-
-PureData Download (Free Forever): https://puredata.info/downloads/pure-data  
-Max/MSP Download (Free Trial): https://cycling74.com/downloads
-
-Note: will need to pick just one. For whichever one, be sure to include dependent packages/libraries/folder structure.
 
 ## Helpful Links
 - Recommended Text Editor: [Sublime Text](https://www.sublimetext.com/)
