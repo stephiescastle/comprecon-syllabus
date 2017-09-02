@@ -57,6 +57,8 @@ PureData Download: https://puredata.info/downloads/pure-data
 | -- | -- |
 | **Final Project** | **40%** |
 
+----
+
 ## Misc Resources
 - Recommended Text Editor: [Sublime Text](https://www.sublimetext.com/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
