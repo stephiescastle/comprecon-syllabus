@@ -1,11 +1,7 @@
 # Computation Reconsidered (ATEK/IIMC-590)
 
-[ATEK - Art and Technology 590-01 Computation Reconsidered](https://catalog.calarts.edu/Lists/Sections/CustomDispForm.aspx?ID=130923&InitialTabId=Ribbon.Read)  
-[IIMC - Integrated Media 590-01 Computation Reconsidered](https://catalog.calarts.edu/Lists/Sections/CustomDispForm.aspx?ID=130921&InitialTabId=Ribbon.Read)
-
-Tuesdays, 7 - 8:50pm, C108  // Fall 2017
-Integrated Media, Art and Technology // California Institute of the Arts  
-Instructor: Stephanie Smith // scsmith@calarts.edu
+Tuesdays, 7 - 8:50pm // C108  
+Instructor: Stephanie Smith // scsmith@calarts.edu  
 
 How can computation be reconsidered within the critical contexts of an art practice? Students will be introduced to the aesthetic possibilities of combining art making, computer programming and digital technology. The classes will explore the fundamentals of programming in a variety of IDEs combined with the investigation of physical media, installation and interactive design. The focus of the class assignments will be the expressive capabilities of the human body in a sensor-based environment. The core concepts will involve a dialogue between physical action and digital information. A final group project will implement the body, sensors, and microcontrollers using computer programs written in class.
 
@@ -60,3 +56,9 @@ PureData: https://puredata.info/
 ## Misc Resources
 - Recommended Text Editor: [Sublime Text](https://www.sublimetext.com/)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+----
+
+Fall 2017 // Integrated Media, Art and Technology // California Institute of the Arts  
+[ATEK - Art and Technology 590-01 Computation Reconsidered](https://catalog.calarts.edu/Lists/Sections/CustomDispForm.aspx?ID=130923&InitialTabId=Ribbon.Read)  
+[IIMC - Integrated Media 590-01 Computation Reconsidered](https://catalog.calarts.edu/Lists/Sections/CustomDispForm.aspx?ID=130921&InitialTabId=Ribbon.Read)
