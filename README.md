@@ -13,28 +13,32 @@ How can computation be reconsidered within the critical contexts of an art pract
 GitHub Organization: https://github.com/comprecon :eyes:
 
 
-## Topics
+## Main Topics
 
 #### Arduino
 
-- Website: https://www.arduino.cc/  
+- Sense/Control physical objects
+- https://www.arduino.cc/  
 
 #### Processing
 
-- Website: https://processing.org/  
+- Visuals and video manipulation
+- https://processing.org/  
 
 #### Visual Programming Languages (PureData)
 
-- PureData: https://puredata.info/  
+- Audio I/O and manipulation / Data routing / "Show Control"
+- https://puredata.info/  
 
 #### Version Control (complementary skill)
 
+- Code history / Code sharing / Code collaboration
 - Git: https://git-scm.com/  
 - GitHub: http://github.com  
 
 ## Schedule
 
-| #  | Date  | Topic                                    | Secondary Topics   | 
+| #  | Date  | Topic                                    | Secondary Topics*   | 
 | -- | ----- | ---------------------------------------- | ------------------ |
 | 01 | 09/12 | **Arduino**          		                | Git, GitHub        |
 | 02 | 09/19 | **Arduino**                              | Sensors, Soldering |
@@ -51,6 +55,8 @@ GitHub Organization: https://github.com/comprecon :eyes:
 | 13 | 12/05 | **Final Project** Development            |  |
 | 14 | 12/12 | Gallery Open                             |  |
 
+  *Secondary topics may shift throughout the semester
+
 ## Grading
 
 | Attendance and Participation | 70% |
@@ -64,11 +70,14 @@ GitHub Organization: https://github.com/comprecon :eyes:
 ### Class 1 (9/12): Arduino
 
 - [Survey](https://docs.google.com/forms/d/e/1FAIpQLSd7Ck84wcaAV6cTkomgo9TUOs5LaaqSzvZ2vk8n1Fzaquj_2A/viewform?usp=sf_link)
-- Slides: [Course Intro / Arduino](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38ncqVNBmu7CWIfpUAHbgM/edit?usp=sharing)
+- Slides: [Course Intro / Arduino](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38ncqVNBmu7CWIfpUAHbgM/edit?usp=sharing)  (stopped at slide 20)
+
+### Class 2 (9/19): Arduino
+
+-  Slides: [Course Intro / Arduino](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38ncqVNBmu7CWIfpUAHbgM/edit?usp=sharing)  (continuing from slide 20)
 
 ----
 
 ## Misc Resources
-- Recommended Text Editor: [Sublime Text](https://www.sublimetext.com/)
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
+- Materials: [sparkfun.com](http://sparkfun.com), [adafruit.com](http://adafruit.com), [aliexpress.com](http://aliexpress.com) (cheap but slow shipping)
+- Recommended general text/code editor: [Sublime Text](https://www.sublimetext.com/)
