@@ -76,6 +76,10 @@ GitHub Organization: https://github.com/comprecon :eyes:
 
 -  Slides: [Course Intro / Arduino](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38ncqVNBmu7CWIfpUAHbgM/edit?usp=sharing)  (continuing from slide 20)
 
+### Class 3 (9/26): Arduino
+- Slides: [Recap and Using Sensors](https://docs.google.com/presentation/d/1Fyj59pzBm38URAU6Jrr92hKQhPP9_iy-V8HedsXZS0w/edit?usp=sharing)  
+- Repository: [Arduino repo](https://github.com/comprecon/arduino)  
+
 ----
 
 ## Misc Resources
