@@ -40,22 +40,23 @@ GitHub Organization: https://github.com/comprecon :eyes:
 
 | #  | Date  | Topic                                    | Secondary Topics*   | 
 | -- | ----- | ---------------------------------------- | ------------------ |
-| 01 | 09/12 | **Arduino**          		                | Git, GitHub        |
-| 02 | 09/19 | **Arduino**                              | Sensors, Soldering |
-| 03 | 09/26 | **Arduino**                              | Sensors, Soldering |
-| 04 | 10/03 | **Processing**                           |  |
-| 05 | 10/10 | **Processing** + Arduino                 |  |
+| 01 | 09/12 | **Arduino**          		                |         |
+| 02 | 09/19 | **Arduino**                              |  |
+| 03 | 09/26 | **Arduino**                              | Sensors |
+| 04 | 10/03 | **Arduino**                              | Sensors, Servos |
+| 05 | 10/10 | **Processing**                           |  |
 | 06 | 10/17 | **Processing** + Arduino                 |  |
-| 07 | 10/24 | **PureData**                    | Misc. controllers |
-| 08 | 10/31 | **PureData** + Arduino          |  |
-| 09 | 11/07 | **PureData** + Processing       | OSC |
-| 10 | 11/14 | **Final Project** Proposals, Form Groups |  |
-| 11 | 11/21 | **Final Project** Development            |  |
+| 07 | 10/24 | **Processing** + Arduino                 |  |
+| 08 | 10/31 | **PureData**                    | Misc. controllers |
+| 09 | 11/07 | **PureData** + Arduino          |  |
+| 10 | 11/14 | **PureData** + Processing       | OSC |
+| 11 | 11/21 | **Final Project** Proposals, Form Groups |  |
 | 12 | 11/28 | **Final Project** Development            |  |
 | 13 | 12/05 | **Final Project** Development            |  |
 | 14 | 12/12 | Gallery Open                             |  |
 
   *Secondary topics may shift throughout the semester
+  *Soldering covered in lab outside of class
 
 ## Grading
 
@@ -74,11 +75,13 @@ GitHub Organization: https://github.com/comprecon :eyes:
 
 ### Class 2 (9/19): Arduino
 
--  Slides: [Course Intro / Arduino](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38ncqVNBmu7CWIfpUAHbgM/edit?usp=sharing)  (continuing from slide 20)
+-  Slides: [Course Intro / Arduino](https://docs.google.com/presentation/d/1WJ0OYdD2WST4ZEv52NQbj38ncqVNBmu7CWIfpUAHbgM/edit?usp=sharing)  (continuing from slide 20)  
+- Assignment: LED Fade
 
 ### Class 3 (9/26): Arduino
-- Slides: [Recap and Using Sensors](https://docs.google.com/presentation/d/1Fyj59pzBm38URAU6Jrr92hKQhPP9_iy-V8HedsXZS0w/edit?usp=sharing)  
+- Slides: [Recap and Using Sensors](https://docs.google.com/presentation/d/1Fyj59pzBm38URAU6Jrr92hKQhPP9_iy-V8HedsXZS0w/edit?usp=sharing)  (stopped at slide 13)  
 - Repository: [Arduino repo](https://github.com/comprecon/arduino)  
+- Assignment: Make an installation
 
 ----
 
