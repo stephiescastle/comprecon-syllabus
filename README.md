@@ -89,7 +89,11 @@ GitHub Organization: https://github.com/comprecon :eyes:
 - Assignment: (1) Complete [Hello Processing Tutorial](http://hello.processing.org) and save your code. (2) Install [Processing](http://processing.org).
 
 ### Class 5 (10/10): Processing
-- Slides: [Processing Presentation](https://docs.google.com/presentation/d/1TnZIvrY1XeKZN6VK1ks0ugNL1tFgC-kmdQ91b4FULEQ/edit?usp=sharing)  
+- Slides: [Processing Presentation](https://docs.google.com/presentation/d/1TnZIvrY1XeKZN6VK1ks0ugNL1tFgC-kmdQ91b4FULEQ/edit?usp=sharing) 
+- Assignment: (1) Continue to experiment with Processing, ideally using mouseX, mouseY, mousePressed, and try out some incrementing and for loops like we did in class. (2) Install the Video library in Processing
+
+### Class 6 (10/17): Processing + Arduino
+- Slides [Processing Part 2 - Arduino, Video](https://docs.google.com/presentation/d/1LOt8ncHE1t0bVDU4kv90hjnwp1U1XHdynpEZquzKVK0/edit?usp=sharing) 
 
 ----
 
