@@ -93,7 +93,11 @@ GitHub Organization: https://github.com/comprecon :eyes:
 - Assignment: (1) Continue to experiment with Processing, ideally using mouseX, mouseY, mousePressed, and try out some incrementing and for loops like we did in class. (2) Install the Video library in Processing
 
 ### Class 6 (10/17): Processing + Arduino
-- Slides [Processing Part 2 - Arduino, Video](https://docs.google.com/presentation/d/1LOt8ncHE1t0bVDU4kv90hjnwp1U1XHdynpEZquzKVK0/edit?usp=sharing) 
+- Slides [Processing Part 2 - Arduino, Video](https://docs.google.com/presentation/d/1LOt8ncHE1t0bVDU4kv90hjnwp1U1XHdynpEZquzKVK0/edit?usp=sharing) (stopped at slide 24)
+- Assignment: Prepare another mini-installation or interactive object. It should include a visual element (video, graphics or images), and some kind of physical input (mouse, knobs, buttons, sensors). There will be time at the beginning of class to troubleshoot before show-and-tell.
+
+### Class 7 (10/24): Processing + Arduino Show-and-Tell
+- Slides [Processing Part 2 - Arduino, Video](https://docs.google.com/presentation/d/1LOt8ncHE1t0bVDU4kv90hjnwp1U1XHdynpEZquzKVK0/edit?usp=sharing) (continuing from slide 24)
 
 ----
 
