@@ -99,6 +99,9 @@ GitHub Organization: https://github.com/comprecon :eyes:
 ### Class 7 (10/24): Processing + Arduino Show-and-Tell
 - Slides [Processing Part 2 - Arduino, Video](https://docs.google.com/presentation/d/1LOt8ncHE1t0bVDU4kv90hjnwp1U1XHdynpEZquzKVK0/edit?usp=sharing) (continuing from slide 24)
 
+### Class 8 (10/31): PureData
+- Slides [PureData](https://docs.google.com/presentation/d/1CYlioSDltbO6k89WYDo2EoiWhHmhcT-S1j6T6qDdqj0/edit?usp=sharing)
+
 ----
 
 ## Misc Resources
