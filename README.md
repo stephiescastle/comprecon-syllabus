@@ -104,6 +104,15 @@ GitHub Organization: https://github.com/comprecon :eyes:
 
 ----
 
+## Shared Code/Assignments
+
+Google Drive where you can upload your assignments:  
+https://drive.google.com/drive/folders/0B38ua_nVqs-iUi1QTUpsVFcwVXM?usp=sharing
+
+I'd encourage you to share your code so your classmastes can take a closer look at your work. Sharing code and building code off of others is a great way to learn and also generate new ideas!
+
+----
+
 ## Misc Resources
 - Materials: [sparkfun.com](http://sparkfun.com), [adafruit.com](http://adafruit.com), [aliexpress.com](http://aliexpress.com) (cheap but slow shipping)
 - Recommended general text/code editor: [Sublime Text](https://www.sublimetext.com/)
