@@ -99,6 +99,18 @@ GitHub Organization: https://github.com/comprecon :eyes:
 ### Class 7 (10/24): Processing + Arduino Show-and-Tell
 - Slides [Processing Part 2 - Arduino, Video](https://docs.google.com/presentation/d/1LOt8ncHE1t0bVDU4kv90hjnwp1U1XHdynpEZquzKVK0/edit?usp=sharing) (continuing from slide 24)
 
+### Class 8 (10/31): PureData
+- Slides [PureData](https://docs.google.com/presentation/d/1CYlioSDltbO6k89WYDo2EoiWhHmhcT-S1j6T6qDdqj0/edit?usp=sharing)
+
+----
+
+## Shared Code/Assignments
+
+Google Drive where you can upload your assignments:  
+https://drive.google.com/drive/folders/0B38ua_nVqs-iUi1QTUpsVFcwVXM?usp=sharing
+
+I'd encourage you to share your code so your classmastes can take a closer look at your work. Sharing code and building code off of others is a great way to learn and also generate new ideas!
+
 ----
 
 ## Misc Resources
