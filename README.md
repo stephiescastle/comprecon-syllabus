@@ -100,7 +100,12 @@ GitHub Organization: https://github.com/comprecon :eyes:
 - Slides [Processing Part 2 - Arduino, Video](https://docs.google.com/presentation/d/1LOt8ncHE1t0bVDU4kv90hjnwp1U1XHdynpEZquzKVK0/edit?usp=sharing) (continuing from slide 24)
 
 ### Class 8 (10/31): PureData
-- Slides [PureData](https://docs.google.com/presentation/d/1CYlioSDltbO6k89WYDo2EoiWhHmhcT-S1j6T6qDdqj0/edit?usp=sharing)
+- Slides [PureData](https://docs.google.com/presentation/d/1CYlioSDltbO6k89WYDo2EoiWhHmhcT-S1j6T6qDdqj0/edit?usp=sharing) (stopped at slide 7)
+- Assignment: No assignment
+
+### Class 9 (11/7): PureData + Arduino
+- Slides [PureData](https://docs.google.com/presentation/d/1CYlioSDltbO6k89WYDo2EoiWhHmhcT-S1j6T6qDdqj0/edit?usp=sharing) (continuing from slide 7)
+- Assignment: Mini-installation using PureDAta + Arduino
 
 ----
 
