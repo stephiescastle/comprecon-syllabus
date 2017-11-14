@@ -49,7 +49,7 @@ GitHub Organization: https://github.com/comprecon :eyes:
 | 07 | 10/24 | **Processing** + Arduino                 |  |
 | 08 | 10/31 | **PureData**                    | Misc. controllers |
 | 09 | 11/07 | **PureData** + Arduino          |  |
-| 10 | 11/14 | **PureData** + Processing       | OSC |
+| 10 | 11/14 | **PureData** + Arduino       | Final Project |
 | 11 | 11/21 | **Final Project** Proposals, Form Groups |  |
 | 12 | 11/28 | **Final Project** Development            |  |
 | 13 | 12/05 | **Final Project** Development            |  |
@@ -105,7 +105,12 @@ GitHub Organization: https://github.com/comprecon :eyes:
 
 ### Class 9 (11/7): PureData + Arduino
 - Slides [PureData](https://docs.google.com/presentation/d/1CYlioSDltbO6k89WYDo2EoiWhHmhcT-S1j6T6qDdqj0/edit?usp=sharing) (continuing from slide 7)
-- Assignment: Mini-installation using PureDAta + Arduino
+- Assignment: Mini-installation using PureData + Arduino
+
+### Class 10 (11/14): PureData + Arduino Show-and-Tell / Final Project Prep
+- Slides [Final Project Details](https://docs.google.com/presentation/d/1xz6Dk0fvE4QQ24iLhxAUxt0BN4VG9HzxU3m7f1rTqLA/edit?usp=sharing)
+- Assignment: Research your final project and prepare a brief presentation (details in today's slides)
+- [Sensor/Components Sign-up Sheet](https://docs.google.com/spreadsheets/d/1-7kkG5eeVQ6DU1O2QE-FGzQHi5JDQI-U3NDBnsGivcw/edit?usp=sharing): There are some sensors and servo motors available. Sign your name next to the ones you would like to use in your project.
 
 ----
 
